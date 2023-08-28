@@ -30,3 +30,5 @@ Route::get('/me1', function(){
 Route::get('/me', 'AboutMeController@me')->name('me');
 Route::get('/hometown', 'AboutMeController@home_town')->name('hometown');
 Route::get('/fav', 'AboutMeController@fav')->name('fav');
+Route::get( '/form', 'FormController@index')->name('form');
+Route::post( '/form', 'FormController@create');

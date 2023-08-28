@@ -18,6 +18,7 @@
                     @yield('town')
                     @yield('fav')
                     @yield('welcome')
+                    @yield('form')
         </div>
 </body>
 </html>
